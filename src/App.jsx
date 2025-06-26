@@ -12,6 +12,7 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import Header from "./components/Header/Header";
 import AdmissionPage from "./Pages/AdmissionPage";
 import CoursesPage from "./Pages/CoursesPage";
+ 
 
 
 
