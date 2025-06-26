@@ -68,7 +68,7 @@ const CoursesPage = () => {
                 <td>UG</td>
                 <td>B.Sc.Computer Science</td>
                 <td>3 Years</td>
-                <td>₹ 85,000</td>
+                <td>₹ 85,000</td> 
                 <td>10+2 with PCM (50%)</td>
              </tr>
              <tr>
@@ -90,7 +90,7 @@ const CoursesPage = () => {
 
         <h2>Specialized & Vocational Courses</h2>
         <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
-        <p class="ready">Have questions about a specific course?</p>
+        <p className="ready">Have questions about a specific course?</p>
          <button type="button" className='bt'><Link to="/contact">Enquire About Courses</Link> 
                           
                             </button>  

@@ -7,11 +7,11 @@ const AdmissionPage = () => {
         
             <div className="other" id="other">
                 <br></br>
-                <h1 class="abt">Admissions at Vivekanand College</h1>
+                <h1 className="abt">Admissions at Vivekanand College</h1>
                 <p>  Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community. Our admission process is designed to be straightforward and accessible.</p>
                 <p>  Please review the eligibility criteria and key dates below for the upcoming academic year. For any queries, feel free to contact our admissions office.</p>
                 <h2>Eligibility Criteria for Undergraduate Programs</h2>
-                <table class="admission-table" border="1px">
+                <table className="admission-table" border="1px">
                     <thead>
                         <tr>
                             <th>Program</th>
@@ -21,7 +21,7 @@ const AdmissionPage = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="row">
+                        <tr>
 			                <td>B.Sc. Computer Science</td>
 			                <td>10+2 (or equivalent)</td>
 			                <td>Physics, Chemistry, Maths</td>
@@ -33,7 +33,7 @@ const AdmissionPage = () => {
 			                <td>Commerce Stream</td>
 			                <td>45%</td>
 		                </tr>
-                        <tr class="row">
+                        <tr>
 			                <td>B.A. English Literature</td>
 			                <td>10+2 (or equivalent)</td>
 			                <td>Any Stream</td>
