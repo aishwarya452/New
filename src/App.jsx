@@ -1,15 +1,15 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import CoursesPage from "./Pages/CoursesPage";
-import AdmissionPage from "./Pages/AdmissionPage";
-import AboutPage from "./Pages/AboutPage";
-import ContactPage from "./Pages/ContactPage";
-
-import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import { useState } from "react";
+import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import Header from "./components/Header/Header";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import CoursesPage from "./Pages/CoursesPage";
+import ContactPage from "./Pages/ContactPage";
+import AdmissionPage from "./Pages/AdmissionPage";
+import AboutPage from "./Pages/AboutPage";
 import HomePage from "./Pages/HomePage";
- 
+
+
 
 
 
@@ -35,7 +35,7 @@ const App =() => {
       </div>
       <Router>
         <Header/>
-        <Routes>h
+        <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/about" element={<AboutPage/>} />
            <Route path="/courses" element={<CoursesPage/>} />
