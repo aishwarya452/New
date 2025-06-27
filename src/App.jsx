@@ -13,6 +13,7 @@ import CoursesPage from "./Pages/CoursesPage";
 import AdmissionPage from "./Pages/AdmissionPage";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
+import Headers from "./components/Header/Header";
  
 
 
@@ -23,7 +24,7 @@ const App =() =>
   return(
     <div>
       <Router>
-        <Header/>
+        <Headers/>
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/about" element={<AboutPage/>} />
