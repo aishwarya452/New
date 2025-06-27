@@ -10,9 +10,9 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import HomePage from "./Pages/HomePage";
 import CoursesPage from "./Pages/CoursesPage";
-import ContactPage from "./Pages/ContactPage";
 import AdmissionPage from "./Pages/AdmissionPage";
 import AboutPage from "./Pages/AboutPage";
+import ContactPage from "./Pages/ContactPage";
  
 
 
