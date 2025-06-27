@@ -1,32 +1,42 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-
-
-
-
-
-
-
-
-
-import HomePage from "./Pages/HomePage";
 import CoursesPage from "./Pages/CoursesPage";
 import AdmissionPage from "./Pages/AdmissionPage";
 import AboutPage from "./Pages/AboutPage";
 import ContactPage from "./Pages/ContactPage";
-import Headers from "./components/Header/Header";
+
+import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
+import { useState } from "react";
+import Header from "./components/Header/Header";
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import HomePage from "./Pages/HomePage";
  
 
 
 
 
-const App =() =>
-  {
+const App =() => {
+  const [showPopup, setShowPopup] = useState(true);
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
+  
   return(
     <div>
+      <div>
+        {/* Your main application content */}
+        <DeveloperInfoPopup
+          show={showPopup}
+          onClose={handleClosePopup}
+          studentName="Aishwarya Sanjay Chavan"
+          studentPhotoUrl="/images/aishwarya.jpg" // Path to their photo
+          uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
+        />
+      </div>
       <Router>
-        <Headers/>
-        <Routes>
-          <Route path="/home" element={<HomePage/>} />
+        <Header/>
+        <Routes>h
+          <Route path="/" element={<HomePage/>} />
           <Route path="/about" element={<AboutPage/>} />
            <Route path="/courses" element={<CoursesPage/>} />
           <Route path="/contact" element={<ContactPage/>} />
@@ -34,7 +44,7 @@ const App =() =>
           
           
         </Routes>
-
+         <ChatbotComponent/>
       </Router>
       
       
