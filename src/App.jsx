@@ -6,13 +6,13 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 
 
-import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import Header from "./components/Header/Header";
 // import AdmissionPage from "./Pages/AdmissionPage";
 import CoursesPage from "./Pages/CoursesPage";
 import AboutPage from "./Pages/AboutPage";
+import HomePage from "./Pages/HomePage";
  
 
 
