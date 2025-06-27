@@ -10,7 +10,7 @@ import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 import Header from "./components/Header/Header";
-import AdmissionPage from "./Pages/AdmissionPage";
+// import AdmissionPage from "./Pages/AdmissionPage";
 import CoursesPage from "./Pages/CoursesPage";
 import AboutPage from "./Pages/AboutPage";
  
@@ -29,7 +29,7 @@ const App =() =>
           <Route path="/about" element={<AboutPage/>} />
            <Route path="/courses" element={<CoursesPage/>} />
           <Route path="/contact" element={<ContactPage/>} />
-          <Route path="/admission" element={<AdmissionPage/>} />
+          {/* <Route path="/admission" element={<AdmissionPage/>} /> */}
           
           
         </Routes>
