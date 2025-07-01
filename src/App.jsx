@@ -3,11 +3,12 @@ import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import Header from "./components/Header/Header";
 import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
-import CoursesPage from "./Pages/CoursesPage";
+
 import ContactPage from "./Pages/ContactPage";
 import AdmissionPage from "./Pages/AdmissionPage";
 import AboutPage from "./Pages/AboutPage";
 import HomePage from "./Pages/HomePage";
+import CoursesPage from "./Pages/CoursesPage";
 
 
 
